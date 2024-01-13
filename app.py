@@ -8,7 +8,7 @@ from sql_alchemy import banco
 from blacklist import BLACKLIST
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'firebird+fdb://sysdba:masterkey@localhost:3050/C:\Gplus\DADOS\GPLUS.FDB'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'firebird+fdb://sysdba:masterkey@localhost:3050/C:\[XXXXXXX]\DADOS\[XXXXXX].FDB'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['JWT_SECRET_KEY'] = 'secret'
 app.config['JWT_BLACKLIST_ENABLED'] = True
